@@ -16,6 +16,16 @@ class UserController extends Controller
 
     public function store(Request $request)
 {
+    $request->validate([
+        'full_name'        => 'required|string|max:255',
+        'user_name'        => 'required|string|max:255|unique:users,user_name',
+        'email'            => 'required|email|unique:users,email',
+        'password'         => 'required|string|min:6',
+        'phone'            => 'required|string|max:11',
+        'whatsapp_number'  => 'required|string|max:11',
+        'address'          => 'required|string|max:500',
+        'user_image'       => 'required|image|mimes:jpeg,png,jpg,gif|max:2048', 
+    ]);
 
     $imagePath = $request->file('user_image')->store('user_images', 'public');
 
