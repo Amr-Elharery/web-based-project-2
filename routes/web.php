@@ -12,3 +12,6 @@ Route::get('/', function () {
 
 Route::get('/sign-up', [UserController::class, 'create'])->name('users.create');
 Route::post('/sign-up', [UserController::class, 'store'])->name('users.store');
+//For Whatsapp validation
+Route::post('/validate-whatsapp', [RegistrationController::class, 'validateWhatsApp'])
+    ->name('validate.whatsapp');
