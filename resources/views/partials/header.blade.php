@@ -22,6 +22,12 @@
                 <li class="nav p-10 nav-link">
                     <a href="/">Sign up</a>
                 </li>
+                <li class="nav p-10 nav-link">
+                    <a href="/locale/en">En</a>
+                </li>
+                <li class="nav p-10 nav-link">
+                    <a href="/locale/ar">Ar</a>
+                </li>
             </ul>
         </div>
     </nav>

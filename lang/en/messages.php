@@ -7,6 +7,7 @@
     'enter_password' => 'Enter your password',
     'password' => 'Password',
     'confirm_password' => 'Confirm Password',
+    'password_requirements' => 'Password must be at least 8 characters long and contain at least one number and one special character',
     'username' => 'Username',
     'enter_username' => 'Enter your username',
     'full_name' => 'Full Name',
