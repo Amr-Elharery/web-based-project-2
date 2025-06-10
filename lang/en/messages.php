@@ -1,0 +1,24 @@
+<?php 
+  return [
+    'welcome' => 'Welcome to our website',
+    'create_account' => 'Create New Account',
+    'email' => 'Email',
+    'enter_email' => 'Enter your email',
+    'enter_password' => 'Enter your password',
+    'password' => 'Password',
+    'confirm_password' => 'Confirm Password',
+    'username' => 'Username',
+    'enter_username' => 'Enter your username',
+    'full_name' => 'Full Name',
+    'enter_full_name' => 'Enter your full name',
+    'address' => 'Address',
+    'enter_address' => 'Enter your address',
+    'phone_number' => 'Phone Number',
+    'enter_phone_number' => 'Enter your phone number',
+    'whatsapp_number' => 'WhatsApp Number',
+    'enter_whatsapp_number' => 'Enter your WhatsApp number',
+    'profile_picture' => 'Profile Picture',
+    'upload_profile_picture' => 'Upload Profile Picture',
+    'submit' => 'Submit',
+  ]
+?>

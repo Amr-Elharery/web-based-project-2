@@ -7,8 +7,7 @@
     </head>
     <body>
         <div class="container">
-            <h1>Welcome to My Laravel App</h1>
-            <p>This is a simple Laravel application.</p>
+            <h1>{{__('messages.welcome')}}</h1>
         </div>
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </body>
