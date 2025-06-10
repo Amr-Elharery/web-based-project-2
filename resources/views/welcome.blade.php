@@ -9,6 +9,6 @@
         <div class="container">
             <h1>{{__('messages.welcome')}}</h1>
         </div>
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        @vite(['resources/css/app.css', 'resources/js/app.js', 'public/js/register-validation.js'])
     </body>
 </html>
