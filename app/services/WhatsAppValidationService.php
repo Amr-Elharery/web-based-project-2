@@ -14,8 +14,8 @@ class WhatsAppValidationService
     public function __construct()
     {
         $this->client = new Client();
-        $this->apiKey = 'your_actual_api_key_here'; 
-        $this->host = 'whatsapp-numbervalidator3.p.rapidapi.com'; 
+        $this->apiKey = config('services.whatsapp_validator.key');
+        $this->host = config('services.whatsapp_validator.host');
     }
 
     public function validateNumber($phoneNumber)
