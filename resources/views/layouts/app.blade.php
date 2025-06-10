@@ -19,6 +19,6 @@
     </main>
 
     @include('partials.footer')
-
+    <script src="{{ asset('js/register-validation.js') }}"></script>
 </body>
 </html>
